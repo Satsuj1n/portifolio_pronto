@@ -34,15 +34,13 @@ const HeroSection = () => {
           <div>
             <button
               className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-green-500 via-cyan-500 to-blue-500 hover:bg-slate-20 w-full sm:w-fit text-white"
-              href={"https://www.linkedin.com/in/felipe-lima-792624246/"}
+              onclick="window.location.href='https://www.linkedin.com/in/felipe-lima-792624246/'"
             >
               Me contrate
             </button>
             <button
               className="px-1 py-1 rounded-full bg-gradient-to-br from-green-500 via-cyan-500 to-blue-500 hover:bg-slate-700 text-white  mt-3 w-full sm:w-fit"
-              href={
-                "https://www.mediafire.com/file/nb5rtgcbvf3ikqs/CurriculoOri.pdf/file"
-              }
+              onclick="window.location.href='https://www.mediafire.com/file/nb5rtgcbvf3ikqs/CurriculoOri.pdf/file'"
             >
               <span className="block bg-neutral-800 hover:bg-neutral-900 rounded-full px-5 py-2">
                 Download Curriculo
