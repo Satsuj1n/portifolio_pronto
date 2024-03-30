@@ -32,20 +32,18 @@ const HeroSection = () => {
             Ciência da Computação rumo ao desenvolvimento fullstack."
           </p>
           <div>
-            <button
-              className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-green-500 via-cyan-500 to-blue-500 hover:bg-slate-20 w-full sm:w-fit text-white"
-              onclick="window.location.href='https://www.linkedin.com/in/felipe-lima-792624246/'"
-            >
-              Me contrate
-            </button>
-            <button
-              className="px-1 py-1 rounded-full bg-gradient-to-br from-green-500 via-cyan-500 to-blue-500 hover:bg-slate-700 text-white  mt-3 w-full sm:w-fit"
-              onclick="window.location.href='https://www.mediafire.com/file/nb5rtgcbvf3ikqs/CurriculoOri.pdf/file'"
-            >
-              <span className="block bg-neutral-800 hover:bg-neutral-900 rounded-full px-5 py-2">
-                Download Curriculo
-              </span>
-            </button>
+            <a href="https://www.linkedin.com/in/felipe-lima-792624246/">
+              <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-green-500 via-cyan-500 to-blue-500 hover:bg-slate-20 w-full sm:w-fit text-white">
+                Me contrate
+              </button>
+            </a>
+            <a href="https://www.mediafire.com/file/nb5rtgcbvf3ikqs/CurriculoOri.pdf/file">
+              <button className="px-1 py-1 rounded-full bg-gradient-to-br from-green-500 via-cyan-500 to-blue-500 hover:bg-slate-700 text-white  mt-3 w-full sm:w-fit">
+                <span className="block bg-neutral-800 hover:bg-neutral-900 rounded-full px-5 py-2">
+                  Download Curriculo
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0 ">
